@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__, template_folder='Templates')
 
-@app.route('/')
+@app.route('/home')
 def home():
     return render_template('index.html')
 
